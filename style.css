@@ -42,7 +42,8 @@ p {
 
 header {
   background-color: rgb(253, 251, 251);
-  padding: 35px 0 30px 0;
+  font-size: 22px;
+  padding: 20px 0;
   position: fixed;
   top: 0;
   /* text-align: center; */
@@ -70,7 +71,7 @@ Styling
 }
 
 .hero__content {
-  float: left;
+  font-size: 22px;
   margin-right: 50px;
   width: 900px;
 }
@@ -82,16 +83,27 @@ Styling
 #minha_foto {
   background-color: rgb(255, 255, 255);
   border-radius: 3%;
-  padding: 25px;
-  width: 250px;
+  padding: 15px;
+  width: 220px;
+}
+
+.experience {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .lado-esquerdo {
   float: left;
+  margin-left: 100px;
+  text-align: right;
   width: 400px;
-  margin-right: 100px;
 }
 
 .lado-esquerdo p:first-child {
   margin-top: 30px;
+}
+
+.lado-direito {
+  float: right;
+  margin-right: 100px;
 }
