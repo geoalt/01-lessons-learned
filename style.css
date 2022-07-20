@@ -10,8 +10,8 @@ html {
 }
 
 *,
-*::before,
-*::after {
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -43,7 +43,7 @@ p {
 header {
   background-color: rgb(253, 251, 251);
   font-size: 22px;
-  padding: 20px 0;
+  padding: 50px 0;
   position: fixed;
   top: 0;
   /* text-align: center; */
@@ -67,7 +67,7 @@ Styling
 }
 
 .hero {
-  margin-top: 100px;
+  margin-top: 180px;
 }
 
 .hero__content {
@@ -82,28 +82,47 @@ Styling
 
 #minha_foto {
   background-color: rgb(255, 255, 255);
-  border-radius: 3%;
-  padding: 15px;
-  width: 220px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 180px;
 }
 
 .experience {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  background-color: #3d495c;
+  color: rgb(253, 251, 251);
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 50px 0;
 }
 
 .lado-esquerdo {
   float: left;
-  margin-left: 100px;
+  margin-left: 80px;
   text-align: right;
   width: 400px;
 }
 
 .lado-esquerdo p:first-child {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .lado-direito {
   float: right;
-  margin-right: 100px;
+  text-align: center;
+  margin-right: 120px;
+}
+
+.lado-direito p:nth-of-type(1) {
+  font-size: 14px;
+}
+
+.lado-direito p {
+  margin-bottom: 2px;
+  font-size: 10px;
+}
+
+.learned {
+  text-align: center;
+  margin-top: 120px;
 }
