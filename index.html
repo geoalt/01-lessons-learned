@@ -36,7 +36,7 @@
 
     <main>
       <section class="container">
-        <article class="lado-esquerdo">
+        <article class="lado-esquerdo float">
           <p>
             O projeto <strong>Trybe</strong> tem se mostrado muito valoroso. Não
             apenas apenas como uma ferramenta para uma futura profissão, mas,
@@ -51,19 +51,19 @@
             Aqui eu me sinto acolhido, e desafiado a todo dia ser um pouco
             melhor do que o eu de ontem;
           </p>
-          <p><strong>Diogo Martins - Turma 25, A.</strong></p>
         </article>
 
-        <aside class="lado-direito">
+        <aside class="lado-direito float">
           <img
             id="minha_foto"
             src="./images/eueu.jpg"
             alt="Foto do desenvolvedor desta página web"
           />
+          <p><strong>Diogo Martins - Turma 25, A.</strong></p>
         </aside>
       </section>
 
-      <section class="container">
+      <section class="container clear">
         <h2>O que já desbravei por aqui</h2>
         <table>
           <caption>
@@ -105,7 +105,7 @@
         </ol>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Mundos curiosos e ainda desconhecidos</h2>
         <ul id="licoes_a_aprender">
           <li>JavaScript</li>
@@ -121,10 +121,15 @@
         </ul>
       </section>
     </main>
-    <footer id="rodape">
-      <p>Diogo Martins 2022 - Feito com HTML, CSS e muito 💚 2022</p>
-      <a href="#"><img src="" alt="Ícone do GitHub" /></a>
-      <a href="#"><img src="" alt="Ícone do LinkedIn" /></a>
+    <footer id="rodape" class="container">
+      <p class="">Diogo Martins 2022 - Feito com HTML, CSS e muito 💚 2022</p>
+      <a href="https://github.com/martdfe">
+        <img src="./images/github-circle.png" alt="Ícone do GitHub"/>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/martdfe/">
+        <img src="./images/linkedin-circle.png" alt="Ícone do LinkedIn"/>
+      </a>
     </footer>
   </body>
 </html>
