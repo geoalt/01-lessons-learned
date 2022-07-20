@@ -36,8 +36,19 @@ h3 {
   margin-top: 0;
 }
 
+h2 {
+  font-size: 28px;
+}
+
 p {
   margin-top: 0;
+}
+
+ol,
+ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
 }
 
 header {
@@ -126,6 +137,43 @@ Styling
 }
 
 .learned {
+  margin-top: 150px;
+}
+
+.learned h2 {
   text-align: center;
-  margin-top: 120px;
+}
+
+table {
+  margin: 40px auto 60px auto;
+  width: 80%;
+  text-align: left;
+}
+
+table caption {
+  padding: 10px 0;
+  font-size: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: rgb(14, 150, 118);
+  color: rgb(253, 251, 251);
+  padding: 3px 0 3px 10px;
+}
+
+table td {
+  padding-left: 10px;
+}
+
+#licoes_aprendidas {
+}
+
+#licoes_aprendidas li {
+  padding: 15px 0 15px 40px;
+  margin: 5px 0;
+  background-color: rgb(61, 73, 92);
+  border-radius: 5px;
+  color: rgb(253, 251, 251);
+  font-weight: 900;
 }
