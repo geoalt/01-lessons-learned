@@ -201,12 +201,25 @@ table td {
 }
 
 footer {
-  background-color: rgb(26, 26, 27);
+  background-color: white;
+  padding: 15px 0;
+  border-top: 1px solid rgb(61, 73, 92);
 }
 footer p {
   display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+footer a {
+  float: right;
 }
 a img {
   width: 20px;
   margin-left: 20px;
+  opacity: 0.75;
+}
+
+a img:hover {
+  opacity: 1;
 }
