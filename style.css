@@ -37,3 +37,38 @@ h3 {
 p {
   margin-top: 0;
 }
+
+header {
+  font-size: 20px;
+  padding: 150px 0;
+}
+
+/**************************************************************************
+Styling
+***************************************************************************/
+.container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.clear {
+  clear: both;
+}
+
+.hero__content {
+  float: left;
+  margin-right: 100px;
+  margin-top: 50px;
+  width: 375px;
+}
+
+.hero__content h1 {
+  font-size: 50px;
+}
+
+#minha_foto {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3%;
+  padding: 25px;
+  width: 300px;
+}
